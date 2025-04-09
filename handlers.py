@@ -11,7 +11,6 @@ main_menu_keyboard.add(types.InlineKeyboardButton("Bot Menu", callback_data="bot
 main_menu_keyboard.add(types.InlineKeyboardButton("Features", callback_data="features"))
 main_menu_keyboard.add(types.InlineKeyboardButton("Purchase & Pricing", callback_data="purchase"))
 main_menu_keyboard.add(types.InlineKeyboardButton("Tutorial & Guide", callback_data="tutorial"))
-main_menu_keyboard.add(types.InlineKeyboardButton("Vouches", url="https://t.me/vouchesrugbot"))
 main_menu_keyboard.add(types.InlineKeyboardButton("Dox Section", callback_data="dox_section"))
 main_menu_keyboard.add(types.InlineKeyboardButton("Special Links", callback_data="special_links"))
 main_menu_keyboard.add(types.InlineKeyboardButton("How To", callback_data="how_to"))
@@ -25,7 +24,7 @@ async def start_cmd(message: types.Message):
         "Crypto Services Bot\n"
         "User: 73947211\n"
         "Version: 5.77.00\n"
-        "@whatever\n"
+        "@proxynodes\n"
         "All in one Crypto Services for Insiders\n"
     )
     purchase_text = (
@@ -34,7 +33,7 @@ async def start_cmd(message: types.Message):
         "3 Day Trial License - 2 SOL\n"
         "Ownership           - 5 SOL\n"
         f"*SOL Address:* `{config.SOL_ADDRESS}`\n\n"
-        "Message @whatever for support\n"
+        "Message @proxynodes for support\n"
         "After sending payment, click Refresh to check for updates.\n"
         "Note: Payment verification is manual. This bot does not automatically verify payments\n"
     )
@@ -53,7 +52,7 @@ async def back_to_main(callback: types.CallbackQuery):
         "Crypto Services Bot\n"
         "User: 73947211\n"
         "Version: 5.77.00\n"
-        "@whatever\n"
+        "@proxynodes\n"
         "All in one Crypto Services for Insiders\n"
     )
     # Re-use the same main menu keyboard
@@ -179,7 +178,7 @@ async def purchase_section(callback: types.CallbackQuery):
         "3 Day Trial License - 1 SOL.\n"
         "Ownership           - 4 SOL.\n"
         f"*SOL Address:* `{config.SOL_ADDRESS}`\n\n"
-        "Message @Rugbothelp for support\n"
+        "Message @proxynodes for support\n"
         "After sending payment, click Refresh to check for updates.\n"
         "Note: Payment verification is manual. This bot does not automatically verify payments\n"
     )
