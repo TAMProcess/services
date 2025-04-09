@@ -30,8 +30,8 @@ async def start_cmd(message: types.Message):
     purchase_text = (
         "💰 *Purchase & Pricing:*\n"
         "Includes access to all Features and Bots in the Crypto Services Bot\n"
-        "3 Day Trial License - 2 SOL\n"
-        "Ownership           - 5 SOL\n"
+        "3 Day Trial License - 5 SOL\n"
+        "Ownership           - 10 SOL\n"
         f"*SOL Address:* `{config.SOL_ADDRESS}`\n\n"
         "Message @proxynodes for support\n"
         "After sending payment, click Refresh to check for updates.\n"
