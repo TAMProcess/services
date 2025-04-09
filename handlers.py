@@ -175,8 +175,8 @@ async def purchase_section(callback: types.CallbackQuery):
     """Shows the Purchase & Pricing section with payment info and a refresh option."""
     purchase_text = (
         "💰 *Purchase & Pricing:*\n"
-        "3 Day Trial License - 1 SOL.\n"
-        "Ownership           - 4 SOL.\n"
+        "3 Day Trial License - 5 SOL.\n"
+        "Ownership           - 10 SOL.\n"
         f"*SOL Address:* `{config.SOL_ADDRESS}`\n\n"
         "Message @proxynodes for support\n"
         "After sending payment, click Refresh to check for updates.\n"
